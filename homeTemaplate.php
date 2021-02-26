@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php /* Temaplte Name: Home Page Template */ get_header(); ?>
 
 
     <div class="bannerHome" style="background: url('./images/3.png');">
