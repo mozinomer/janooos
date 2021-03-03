@@ -1,6 +1,17 @@
 <?php wp_footer(); ?>
 
-
+    <?php if ( ! is_front_page() ) { ?>
+        <div class="contactusBeforeFooter">
+            <div class="container">
+                <div class="containerCOntactBeforeFooter">
+                    <h6><?php the_field('asds'); ?></h6>
+                    <h3><?php the_field('asds'); ?></h3>
+                    <p><?php the_field('asds'); ?></p>
+                </div>
+                <a href="<?php echo site_url(); ?>/contact-us"><?php the_field('asds'); ?></a>
+            </div>
+        </div>
+    <?php } ?>
     <footer>
         <div class="container">
             <div class="topContainer">

@@ -67,11 +67,11 @@
         </div>
     </header>
     <?php if ( ! is_front_page() ) { ?>
-        <div class="pageBanner" style="background-image: url('./images/9.png');">
+        <div class="pageBanner" style="background-image: url('<?php the_field('banner_image'); ?>');">
             <div class="container">
                 <div class="contentPageBanner">
-                    <h2><?php the_field('titleBanner'); ?></h2>
-                    <p><?php the_field('bannerContent'); ?></p>
+                    <h2><?php the_field('banner_heading'); ?></h2>
+                    <p><?php the_field('banner_content'); ?></p>
                 </div>
             </div>
         </div>

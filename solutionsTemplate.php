@@ -69,6 +69,14 @@
 			<div class="col-1s">
 				<img src="<?php the_sub_field('asd'); ?>">
 			</div>
+			<div class="cols2">
+				<div class="contentContainercolumsn">
+					<h6><?php the_field('asds'); ?></h6>
+					<h2><?php the_field('asds'); ?></h2>
+					<p><?php the_field('asds'); ?></p>
+					<strong><?php the_field('asds'); ?></strong>
+				</div>
+			</div>
 		</div>
 	<?php endwhile; endif; ?>
 	
