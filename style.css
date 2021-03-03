@@ -854,3 +854,59 @@ footer .logoCOntainer {
 .imageCOntainercol1 {
     height: 100%;
 }
+.pageBanner {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.pageBanner h2 {
+    max-width: 500px;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+
+.pageBanner p {
+    max-width: 900px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.section2solutions {
+    padding: 100px 0px;
+}
+
+.contentSection2Solution li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.contentSection2Solution li img {
+    margin-right: 10px;
+}
+
+.contentSection2Solution h2 {
+    font-size: 27px;
+}
+
+.contentSection2Solution ul {
+    margin: 30px 0px;
+}
+
+.contentSection2Solution p {
+    padding-left: 30px;
+    line-height: 27px;
+    font-size: 14px;
+    /* opacity: 0.7; */
+}
+
+.contentSection2Solution p span {
+    color: #C88D31;
+    /* opacity: 0.7; */
+}
+
+.section2solutions .row {
+    align-items: center;
+}

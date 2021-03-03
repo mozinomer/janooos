@@ -10,17 +10,17 @@
 			</div>
 			<div class="col-md-6">
 				<div class="contentSection2Solution">
-					<h2><?php the_field('asd'); ?></h2>
+					<h2><?php the_field('headingSeciotnSolution'); ?></h2>
 					<ul>
-						<?php if( have_rows('repeater_field_name') ): while( have_rows('repeater_field_name') ) : the_row(); ?>
+						<?php if( have_rows('list_itemss') ): while( have_rows('list_itemss') ) : the_row(); ?>
 							<li>
 								<img src="<?php echo get_template_directory_uri(); ?>/images/5.png">
-								<?php the_sub_field('asd'); ?>
+								<?php the_sub_field('list_itemss'); ?>
 							</li>
 						<?php endwhile; endif; ?>
 					</ul>
 					<p>
-						<?php the_field('asd'); ?>
+						<?php the_field('contentSolution1'); ?>
 					</p>
 				</div>
 			</div>
@@ -57,7 +57,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="imgeContainersectionSoluton">
-					<img src="<?php the_field('imageContainerSection2Solution'); ?>">
+					<img src="<?php the_field('imageContainerSection3Solution'); ?>">
 				</div>
 			</div>
 		</div>
