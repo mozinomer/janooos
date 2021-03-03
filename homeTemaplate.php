@@ -1,14 +1,14 @@
-<?php /* Temaplte Name: Home Page Template */ get_header(); ?>
+<?php /* Template Name: Home Page Template */ get_header(); ?>
 
 
-    <div class="bannerHome" style="background: url('./images/3.png');">
+    <div class="bannerHome" style="background: url('<?php echo get_template_directory_uri(); ?>/images/3.png');">
         <div class="container">
             <div class="contentContainerBannerHOme">
                 <h2>Make your Small Business a Big Player in a Competitive Environment.</h2>
                 <p>Enterprise-Grade Systems, Processes, and Automation for a fraction of what the Fortune 500 companies pay for them. </p>
                 <div class="buttonContainersHomeBanner">
-                    <a href="#" class="getInTOuch">About Us <img src="./images/2.svg"></a>
-                    <a href="#" class="reversedButton">About Us <img src="./images/2.svg"></a>
+                    <a href="#" class="getInTOuch">About Us <img src="<?php echo get_template_directory_uri(); ?>/images/2.svg"></a>
+                    <a href="#" class="reversedButton">About Us <img src="<?php echo get_template_directory_uri(); ?>/images/2.svg"></a>
                 </div>
             </div>
         </div>
@@ -27,18 +27,18 @@
                     <div class="col-md-6">
                         <div class="boxContainer">
                             <div class="imageContainerBox">
-                                <img src="./images/1.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/1.png">
                             </div>
                             <div class="fixedInBox">
                                 <div class="innerFixed">
                                     <h4>ROI AND CASH FLOW ALARM SIGNALS</h4>
                                     <ul>
-                                        <li><img src="./images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
-                                        <li><img src="./images/4.svg">You can’t seem to break the “no growth” logjam.</li>
-                                        <li><img src="./images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
-                                        <li><img src="./images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">You can’t seem to break the “no growth” logjam.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
                                     </ul>
-                                    <a href="#">Read More <img src="./images/3.svg"></a>
+                                    <a href="#">Read More <img src="<?php echo get_template_directory_uri(); ?>/images/3.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -46,18 +46,18 @@
                     <div class="col-md-6">
                         <div class="boxContainer">
                             <div class="imageContainerBox">
-                                <img src="./images/1.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/1.png">
                             </div>
                             <div class="fixedInBox">
                                 <div class="innerFixed">
                                     <h4>ROI AND CASH FLOW ALARM SIGNALS</h4>
                                     <ul>
-                                        <li><img src="./images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
-                                        <li><img src="./images/4.svg">You can’t seem to break the “no growth” logjam.</li>
-                                        <li><img src="./images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
-                                        <li><img src="./images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">You can’t seem to break the “no growth” logjam.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
                                     </ul>
-                                    <a href="#">Read More <img src="./images/3.svg"></a>
+                                    <a href="#">Read More <img src="<?php echo get_template_directory_uri(); ?>/images/3.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -65,18 +65,18 @@
                     <div class="col-md-6">
                         <div class="boxContainer">
                             <div class="imageContainerBox">
-                                <img src="./images/1.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/1.png">
                             </div>
                             <div class="fixedInBox">
                                 <div class="innerFixed">
                                     <h4>ROI AND CASH FLOW ALARM SIGNALS</h4>
                                     <ul>
-                                        <li><img src="./images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
-                                        <li><img src="./images/4.svg">You can’t seem to break the “no growth” logjam.</li>
-                                        <li><img src="./images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
-                                        <li><img src="./images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">You can’t seem to break the “no growth” logjam.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
                                     </ul>
-                                    <a href="#">Read More <img src="./images/3.svg"></a>
+                                    <a href="#">Read More <img src="<?php echo get_template_directory_uri(); ?>/images/3.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -84,18 +84,18 @@
                     <div class="col-md-6">
                         <div class="boxContainer">
                             <div class="imageContainerBox">
-                                <img src="./images/1.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/1.png">
                             </div>
                             <div class="fixedInBox">
                                 <div class="innerFixed">
                                     <h4>ROI AND CASH FLOW ALARM SIGNALS</h4>
                                     <ul>
-                                        <li><img src="./images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
-                                        <li><img src="./images/4.svg">You can’t seem to break the “no growth” logjam.</li>
-                                        <li><img src="./images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
-                                        <li><img src="./images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">You can’t seem to break the “no growth” logjam.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
                                     </ul>
-                                    <a href="#">Read More <img src="./images/3.svg"></a>
+                                    <a href="#">Read More <img src="<?php echo get_template_directory_uri(); ?>/images/3.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -103,18 +103,18 @@
                     <div class="col-md-6">
                         <div class="boxContainer">
                             <div class="imageContainerBox">
-                                <img src="./images/1.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/1.png">
                             </div>
                             <div class="fixedInBox">
                                 <div class="innerFixed">
                                     <h4>ROI AND CASH FLOW ALARM SIGNALS</h4>
                                     <ul>
-                                        <li><img src="./images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
-                                        <li><img src="./images/4.svg">You can’t seem to break the “no growth” logjam.</li>
-                                        <li><img src="./images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
-                                        <li><img src="./images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">You can’t seem to break the “no growth” logjam.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
                                     </ul>
-                                    <a href="#">Read More <img src="./images/3.svg"></a>
+                                    <a href="#">Read More <img src="<?php echo get_template_directory_uri(); ?>/images/3.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -122,18 +122,18 @@
                     <div class="col-md-6">
                         <div class="boxContainer">
                             <div class="imageContainerBox">
-                                <img src="./images/1.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/1.png">
                             </div>
                             <div class="fixedInBox">
                                 <div class="innerFixed">
                                     <h4>ROI AND CASH FLOW ALARM SIGNALS</h4>
                                     <ul>
-                                        <li><img src="./images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
-                                        <li><img src="./images/4.svg">You can’t seem to break the “no growth” logjam.</li>
-                                        <li><img src="./images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
-                                        <li><img src="./images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Costs on the rise, while revenues stay constant or go down.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">You can’t seem to break the “no growth” logjam.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">Overdraft alerts disrupt your equilibrium too often.</li>
+                                        <li><img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">The ability to streamline cashflows is a distant concept for you.</li>
                                     </ul>
-                                    <a href="#">Read More <img src="./images/3.svg"></a>
+                                    <a href="#">Read More <img src="<?php echo get_template_directory_uri(); ?>/images/3.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
         <div class="noContainer">
             <div class="innerNoContainer">
                 <div class="imageCOntainerLeft">
-                    <img src="./images/5.svg">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/5.svg">
                 </div>
                 <div class="listContainerNoContainerHomepage">
                     <ul>
@@ -196,11 +196,11 @@
                     <div class="contentCOntainersectionlastSection">
                         <h2>The timing for you to act with determination is NOW!</h2>
                         <p>Get the SME Strategic Management Team with Big Company Ammunition in your corner at affordable pricing. <strong>TRANSPARENT - MODERN - TECHNOLOGY-BASED METHODS</strong></p>
-                        <a href="#" class="getInTOuch">Contact Us Today <img src="./images/2.svg"></a>
+                        <a href="#" class="getInTOuch">Contact Us Today <img src="<?php echo get_template_directory_uri(); ?>/images/2.svg"></a>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="./images/2.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/2.png">
                     <div class="rotatedText">
                         <strong>Joseph Paglinawan</strong>
                         <span>C.E.O JANUS CONSULTING Partners</span>

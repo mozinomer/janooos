@@ -24,7 +24,7 @@
 <?php wp_head(); ?>
 <body <?php body_class(); ?>>
 
-    
+
     <header>
         <div class="container">
             <div class="headerCOntainer">
@@ -66,3 +66,13 @@
             </div>
         </div>
     </header>
+    <?php if ( ! is_front_page()() ) { ?>
+        <div class="pageBanner" style="background-image: url('./images/9.png');">
+            <div class="container">
+                <div class="contentPageBanner">
+                    <h2>Why Us? So Many Reasons.</h2>
+                    <p>The best one is that we Empower SMEs and Funded Startups to do Big Things.</p>
+                </div>
+            </div>
+        </div>
+    <?php } ?>
