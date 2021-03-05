@@ -948,3 +948,85 @@ footer .logoCOntainer {
     text-align: center;
     opacity: 0.1;
 }
+.latestArticles h2 {
+    text-align: center;
+    margin: 40px 0px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.imageWrapperBlog {
+    max-height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imageWrapperBlog img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 9s all;
+}
+
+.boxContinerBlog a {display: block;width: 100%;position: relative;}
+
+.contentContainerBlogPostPageh {
+    position: absolute;
+    bottom: 10px;
+    z-index: 9;
+    color: #fff;
+    padding: 20px;
+}
+
+.imageWrapperBlog::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #00000063;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.contentContainerBlogPostPageh h4 {
+    font-size: 19px;
+    line-height: 30px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.contentContainerBlogPostPageh p {
+    font-weight: 600;
+    opacity: 0.7;
+    margin: 20px 0px 0px;
+}
+
+.contentContainerBlogPostPageh h4::after {
+    content: "";
+    display: block;
+    width: 20%;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    transition: 3s all;
+}
+
+.boxContinerBlog {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.boxContinerBlog a:hover {}
+
+.boxContinerBlog a:hover img {
+    transform: scale(1.5);
+}
+
+.boxContinerBlog a:hover 
+ h4::after {
+    width: 100%;
+}
