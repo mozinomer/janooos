@@ -1030,3 +1030,149 @@ footer .logoCOntainer {
  h4::after {
     width: 100%;
 }
+.contentLeftContact > img {
+    max-width: 200px;
+    margin-bottom: 30px;
+}
+
+.contentLeftContact h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+ul.contactInfoList li {
+    display: flex;
+    align-items: center;
+}
+
+ul.contactInfoList img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+ul.contactInfoList a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+ul.contactInfoList li {
+    margin-bottom: 20px;
+    max-width: 320px;
+}
+
+ul.contactInfoList {
+    margin-bottom: 60px;
+}
+
+.contentLeftContact h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+ul.socialLInks {
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+ul.socialLInks li:nth-child(even) {
+    margin: 0px 20px;
+}
+
+ul.socialLInks a {
+    color: #C88D31;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background: #c88d3147;
+    opacity: 1;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+    margin: 0px;
+}
+
+ul.socialLInks a:hover {
+    background: #C88D31;
+    color: #fff;
+}
+
+.contactPage {
+    padding: 100px 0px;
+}
+
+.rightSidecontactPage h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.inputContainerForm {
+    /* border: 1px dashed #afafaf78; */
+    max-width: 480px;
+    position: relative;
+    margin-bottom: 40px;
+    height: 50px;
+}
+
+.inputContainerForm input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px;
+    border: none;
+    font-size: 14px;
+    color: #000;
+    border: 1px dashed #afafaf78;
+}
+
+.inputContainerForm label {
+    position: absolute;
+    top: 0;
+    background: #ffff;
+    z-index: 2;
+    left: 10px;
+    top: -10px;
+    padding: 0px 20px;
+    font-size: 13px;
+}
+
+.inputContainerForm input::placeholder, .inputContainerForm textarea:placeholder {
+    color: #D1D1D1;
+}
+
+.inputContainerForm:last-child {
+    height: auto;
+}
+
+.inputContainerForm textarea {
+    height: 200px;
+    width: 100%;
+    resize: none;
+    border: none;
+    border: 1px dashed #afafaf78;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.rightSidecontactPage button {
+    background: #C88D31;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+    border: 2px solid #C88D31;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px;
+    transition: 0.7s all;
+}
+
+
+.rightSidecontactPage button:hover {background: none;color: #C88D31;}

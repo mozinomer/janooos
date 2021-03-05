@@ -43,8 +43,8 @@
 							<label>Your Message</label>
 							<textarea placeholder="Write your message here!"></textarea>
 						</div>
-						<button type="submit">Send Message</button>
 					</div>
+					<button type="submit">Send Message</button>
 				</div>
 			</div>
 		</div>
