@@ -1175,4 +1175,7 @@ ul.socialLInks a:hover {
 }
 
 
-.rightSidecontactPage button:hover {background: none;color: #C88D31;}
+.rightSidecontactPage button:hover {
+    background: none;
+    color: #C88D31;
+}
