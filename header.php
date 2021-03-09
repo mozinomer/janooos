@@ -46,6 +46,11 @@
                     </div>
                     <a href="#" class="getInTOuch">Get in TOuch <img src="<?php echo get_template_directory_uri(); ?>/images/2.svg"></a>
                 </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </header>
