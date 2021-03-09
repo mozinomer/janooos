@@ -31,28 +31,10 @@
             <div class="headerCOntainer">
                 <div class="logoContainerAndMenu">
                     <div class="logoCOntainer">
-                        <img src="./images/1.svg">
+                        <img src="<?php the_field('logo_site', 'options'); ?>">
                     </div>
                     <div class="menuContainer">
-                        <ul>
-                            <li>
-                                <a href="#">Home</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Why Us</a></li>
-                                    <li><a href="#">Solutions   </a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Pricing</a></li>
-                                    <li><a href="#">FAQ's</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Why Us</a></li>
-                            <li><a href="#">Solutions   </a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">FAQ's</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
+                        <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
                     </div>
                 </div>
                 <div class="rightMenu">
@@ -62,7 +44,7 @@
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
-                    <a href="#" class="getInTOuch">Get in TOuch <img src="./images/2.svg"></a>
+                    <a href="#" class="getInTOuch">Get in TOuch <img src="<?php echo get_template_directory_uri(); ?>/images/2.svg"></a>
                 </div>
             </div>
         </div>

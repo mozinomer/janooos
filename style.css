@@ -1717,3 +1717,27 @@ p.darker {
     line-height: 25px;
     font-size: 14px;
 }
+.copyRights {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #cccccc45;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.copyRights p {
+    opacity: 0.7;
+}
+
+.copyRights a:last-child {
+    opacity: 0.5;
+    margin: 20px 0px 0px;
+}
+
+footer .logoCOntainer {
+    padding: 0px;
+}
+.blogPageContainer {
+    padding: 50px 0px 0px;
+}

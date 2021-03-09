@@ -5,8 +5,8 @@
             <div class="inner-news">
                 <div class="iner-width">
                     <h6><?php the_field('headingcn', 'options'); ?></h6>
-                <h3><?php the_field('sub_headingcn', 'options'); ?></h3>
-                <p><?php the_field('contentcn', 'options'); ?></p>
+                    <h3><?php the_field('sub_headingcn', 'options'); ?></h3>
+                    <p><?php the_field('contentcn', 'options'); ?></p>
                 </div>
                 <div class="iner-width1">
                    <div class="cin">
@@ -34,16 +34,7 @@
                 <div class="col-md-4">
                     <div class="listConyainer">
                         <h6>Quick Links</h6>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Why Us</a></li>
-                            <li><a href="#">Solutions   </a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">FAQ's</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
+                        <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -53,10 +44,22 @@
                         <a href="#" class="downloadFile"><img src="<?php echo get_template_directory_uri(); ?>/images/6.svg">Download Brochure</a>
                         <div class="emailUs">
                             <h5>Email Us Now!</h5>
-                            <a href="mailto:info@janusconsultingpartners.com"> info@janusconsultingpartners.com</a>
+                            <a href="mailto:<?php the_field('email_address', 'options') ?>"> <?php the_field('email_address', 'options') ?></a>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="copyRights">
+            <div class="loogCOntianer">
+                <div class="logoCOntainer">
+                    <img src="<?php the_field('logo_site', 'options'); ?>">
+                    <p>Copyright ©2020 Fluid Energy. All Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="numberCOntainer">
+                <a href="tel:(858) 900-3231"><img src="<?php echo get_template_directory_uri(); ?>/images/32.png">(858) 900-3231</a>
+                <a href="#">Cookies</a>
             </div>
         </div>
     </div>

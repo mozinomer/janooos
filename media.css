@@ -1,0 +1,187 @@
+@media only screen and (max-width: 767px) {
+	header {
+		display: none;
+	}
+	/* about page */
+	.headingContaienerBlodl h2 {
+		font-size: 20px;
+	}
+
+	.container {
+		padding: 0px 20px;
+	}
+
+	.pageBanner h2 {
+		font-size: 20px;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	.pageBanner p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.pageBanner {
+		min-height: 210px;
+	}
+
+	.column2 {
+		flex: 0 100%;
+		margin: 0px;
+		padding: 30px;
+	}
+
+	.column1 {
+		flex: 0 100%;
+	}
+
+	.column2 h3 {
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.column2 p {
+		font-size: 11px;
+		line-height: 22px;
+		color: #000;
+	}
+
+	.rowsContainerAbout .row:nth-child(even) .column2 {
+		margin: 0px;
+	}
+
+	.col1 {
+		flex: 0 100%;
+	}
+
+	.col2 {
+		flex: 0 100%;
+		padding: 20px 20px;
+	}
+
+	.contentContainerJosepgh li {
+		display: block;
+		font-size: 12px;
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
+
+	.contentContainerJosepgh li img {
+		display: inline-block;
+	}
+
+	.contentContainerJosepgh h2 {
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.containerinnerBoxsed h6 img {
+		width: 30px;
+	}
+
+	.containerinnerBoxsed h6 {
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	.contentjosepghContaienr {
+		padding: 10px 0px;
+		FONT-WEIGHT: 100;
+	}
+
+	.contentjosepghContaienr p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.contentjosepghContaienr h2 {
+		text-align: center;
+	}
+
+	.inner-client h2 {
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.inner-client p {
+		font-size: 13px;
+		line-height: 22px;
+		max-width: 100%;
+	}
+
+	.inner-news {
+		display: block;
+	}
+
+	.iner-width {
+		width: 100%;
+	}
+
+	.iner-width h6 {
+		font-size: 15px;
+		line-height: 22px;
+		font-weight: 400;
+	}
+
+	.iner-width h3 {
+		font-size: 22px;
+		font-weight: 600;
+		line-height: 30px;
+	}
+
+	.iner-width p {
+		font-size: 13px;
+		line-height: 22px;
+		margin-bottom: 30px;
+	}
+
+	.iner-width1 {
+		width: 100%;
+	}
+
+	.cin a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 14px;
+	}
+
+	.aboutcontentFotoer {
+		border: none;
+	}
+
+	.listConyainer {
+		max-width: 100%;
+	}
+
+	footer h6 {
+		margin: 20px 0px 10px;
+		font-weight: 600;
+	}
+
+	.copyRights {
+		margin: 20px 0px 0px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+		justify-content: flex-start;
+	}
+
+	.numberCOntainer {
+		flex: 0 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.copyRights a:last-child {
+		margin: 0px;
+	}
+
+	.copyRights img {
+		margin: auto;
+	}
+}

@@ -7,112 +7,23 @@
 		<div class="latestArticles">
 			<h2>Latest Articles</h2>
 			<div class="row">
+				<?php $data_query =  new WP_Query(array('post_type' => 'post', 'order_by','Des', 'posts_per_page' => -1)); while ( $data_query->have_posts() ) : $data_query->the_post();?>
 				<div class="col-md-4">
 					<div class="boxContinerBlog">
-						<a href="#">
+						<a href="<?php the_permalink(); ?>">
 							<div class="imageWrapperBlog">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/18.png">
+								<img src="<?php echo get_the_post_thumbnail_url(); ?>">
 							</div>
 							<div class="contentContainerBlogPostPageh">
-								<h4>Small business process improvement (BPI) – The Janus way of doing things</h4>
-								<p>SME owners and employees, unable to align their thinking, fight a losing battle in many ways. Inability to move in sync results in workplace frustration.</p>
+								<h4><?php the_title(); ?></h4>
+								<p><?php the_excerpt(); ?></p>
 							</div>
 						</a>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="boxContinerBlog">
-						<a href="#">
-							<div class="imageWrapperBlog">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/18.png">
-							</div>
-							<div class="contentContainerBlogPostPageh">
-								<h4>Small business process improvement (BPI) – The Janus way of doing things</h4>
-								<p>SME owners and employees, unable to align their thinking, fight a losing battle in many ways. Inability to move in sync results in workplace frustration.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="boxContinerBlog">
-						<a href="#">
-							<div class="imageWrapperBlog">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/18.png">
-							</div>
-							<div class="contentContainerBlogPostPageh">
-								<h4>Small business process improvement (BPI) – The Janus way of doing things</h4>
-								<p>SME owners and employees, unable to align their thinking, fight a losing battle in many ways. Inability to move in sync results in workplace frustration.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="boxContinerBlog">
-						<a href="#">
-							<div class="imageWrapperBlog">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/18.png">
-							</div>
-							<div class="contentContainerBlogPostPageh">
-								<h4>Small business process improvement (BPI) – The Janus way of doing things</h4>
-								<p>SME owners and employees, unable to align their thinking, fight a losing battle in many ways. Inability to move in sync results in workplace frustration.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="boxContinerBlog">
-						<a href="#">
-							<div class="imageWrapperBlog">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/18.png">
-							</div>
-							<div class="contentContainerBlogPostPageh">
-								<h4>Small business process improvement (BPI) – The Janus way of doing things</h4>
-								<p>SME owners and employees, unable to align their thinking, fight a losing battle in many ways. Inability to move in sync results in workplace frustration.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="boxContinerBlog">
-						<a href="#">
-							<div class="imageWrapperBlog">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/18.png">
-							</div>
-							<div class="contentContainerBlogPostPageh">
-								<h4>Small business process improvement (BPI) – The Janus way of doing things</h4>
-								<p>SME owners and employees, unable to align their thinking, fight a losing battle in many ways. Inability to move in sync results in workplace frustration.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="boxContinerBlog">
-						<a href="#">
-							<div class="imageWrapperBlog">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/18.png">
-							</div>
-							<div class="contentContainerBlogPostPageh">
-								<h4>Small business process improvement (BPI) – The Janus way of doing things</h4>
-								<p>SME owners and employees, unable to align their thinking, fight a losing battle in many ways. Inability to move in sync results in workplace frustration.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="boxContinerBlog">
-						<a href="#">
-							<div class="imageWrapperBlog">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/18.png">
-							</div>
-							<div class="contentContainerBlogPostPageh">
-								<h4>Small business process improvement (BPI) – The Janus way of doing things</h4>
-								<p>SME owners and employees, unable to align their thinking, fight a losing battle in many ways. Inability to move in sync results in workplace frustration.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
+			<?php endwhile; wp_reset_query(); ?>
 		</div>
 	</div>
+</div>
 </div>
 <?php get_footer(); ?>
