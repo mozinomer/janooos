@@ -1,5 +1,22 @@
 <?php wp_footer(); ?>
-
+<?php if ( ! is_front_page() ) { ?>
+        <div class="news-contct">
+            <div class="container">
+                <div class="inner-news">
+                <div class="iner-width">
+                <p><?php the_field('contac_heading'); ?></p>
+                 <h4><?php the_field('conatct_para'); ?></h4>
+                 <span><?php the_field('contct_subhead'); ?></span>
+                 </div>
+                 <div class="iner-width1">
+                 <div class="cin">
+                 <a href="<?php the_field('contact_link'); ?>">Contact Us Today <img src="http://localhost/janus/wp-content/uploads/2021/03/right-arow.png"></a>
+                 </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    <?php } ?>
     <?php if ( ! is_front_page() ) { ?>
         <div class="contactusBeforeFooter">
             <div class="container">
@@ -56,4 +73,7 @@
             </div>
         </div>
     </footer>
-</body>		
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"></script>
+ <!-- custom js -->
+ <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
